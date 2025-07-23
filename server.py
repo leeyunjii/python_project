@@ -4,7 +4,6 @@ import base64
 import json
 from werkzeug.security import generate_password_hash, check_password_hash
 from dotenv import load_dotenv
-load_dotenv()
 from selenium import webdriver as wb
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
